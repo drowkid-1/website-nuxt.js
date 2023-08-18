@@ -28,11 +28,11 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "build": "nuxt build ./app",
-    "dev": "nuxt dev ./app --no-clear",
-    "generate": "nuxt generate ./app",
-    "preview": "nuxt preview ./app",
-    "postinstall": "nuxt prepare ./app",
+    "build": "nuxt build ./docs",
+    "dev": "nuxt dev ./docs --no-clear",
+    "generate": "nuxt generate ./docs",
+    "preview": "nuxt preview ./docs",
+    "postinstall": "nuxt prepare ./docs",
     "dev:starter": "nuxt dev ./examples/starter",
     "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",
     "lint:fix": "eslint --fix --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",

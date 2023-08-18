@@ -1,5 +1,5 @@
 ---
-title: 'La riata soy yo'
+title: 'don verga'
 description: 'Hello !!!, this is a post about hello world hand demo Syntax Highlight Code.'
 date: '2022-06-29'
 author: 'viandwi24'
@@ -41,7 +41,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
       ```rs
       fn main() {
         // Statements here are executed when the compiled binary is called.
-
+ergax 
         // Print text to the console.
         println!("Hello World!");
       }

@@ -10,7 +10,7 @@ export default defineNuxtConfig({
 
   // app config
   app: {
-     // global transition
+    // global transition
     pageTransition: { name: 'page', mode: 'out-in' },
     layoutTransition: { name: 'layout', mode: 'out-in' },
   },

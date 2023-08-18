@@ -2,28 +2,28 @@ import { AppConfigInput } from 'nuxt/schema'
 
 export default defineAppConfig({
   awesome: {
-    name: 'DrowKid Web',
+    name: 'Nuxt 3 Awesome Starter',
     description:
-      'Apps, templates, blog, etc..',
+      'a starter template for Nuxt 3 with minimalist themes design, built in components, drawer & menus, and more.',
     project: {
       links: {
-        github: 'https://github.com/drowkid-1/',
+        github: 'https://github.com/viandwi24/nuxt3-awesome-starter',
       },
     },
     layout: {
       page: {
         navbar: {
           menus: [
-            { type: 'link', title: 'Apps', to: { name: 'blank' } },
-            { type: 'link', title: 'Posts', to: { name: 'post' } },
-            { type: 'link', title: 'Scripts', to: { name: 'test' } },
+            { type: 'link', title: 'Blank', to: { name: 'blank' } },
+            { type: 'link', title: 'Post', to: { name: 'post' } },
+            { type: 'link', title: 'Test', to: { name: 'test' } },
             {
               type: 'dropdown',
-              title: 'Extras',
+              title: 'Documentations',
               children: [
                 {
                   type: 'link',
-                  title: 'Componentes Web',
+                  title: 'Components',
                   to: { name: 'docs-components' },
                 },
               ],
@@ -43,16 +43,16 @@ export default defineAppConfig({
         year: new Date().getFullYear(),
       },
       welcome: {
-        title: 'DrowKid Website ',
+        title: 'Nuxt&nbsp;3 Awesome Starter',
         disableInfoReplaceIndexInWelcomePage: true,
       },
     },
     author: {
-      name: 'DrowKid', 
+      name: 'viandwi24',
       links: {
-        github: 'https://github.com/drowkid-1',
-        medium: '#',
-        website: 'https://lalo.b-cdn.net',
+        github: 'https://github.com/viandwi24',
+        medium: 'https://viandwi24.medium.com',
+        website: 'https://viandwi24.site',
       },
     },
   },

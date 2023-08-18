@@ -80,7 +80,8 @@ const leadingsText = computed(() => [
             size="lg"
             :text="
               parseMenuTitle(
-                awesome?.layout?.welcome?.primaryActionButton?.title || 'Bienvenidxs'
+                awesome?.layout?.welcome?.primaryActionButton?.title ||
+                  'Bienvenidxs'
               )
             "
             :to="

@@ -1,20 +1,20 @@
 <script lang="ts" setup>
 definePageMeta({ layout: 'page' })
-useHead({ title: 'Apps' })
+useHead({ title: 'Blank Page' })
 </script>
 
 <template>
   <LayoutPageWrapper>
     <LayoutPageHeader>
-      <LayoutPageTitle text="Apps de código abierto" class="capitalize" />
+      <LayoutPageTitle text="Blank Page" class="capitalize" />
     </LayoutPageHeader>
     <LayoutPageSection>
-      <LayoutPageSectionTitle text="Apps by DrowKid" />
-      <div>Apps</div>
+      <LayoutPageSectionTitle text="Section Title" />
+      <div>My Content</div>
     </LayoutPageSection>
     <LayoutPageSection>
       <LayoutPageSectionTitle text="Another Section" />
-      <div>Apps</div>
+      <div>My Content</div>
     </LayoutPageSection>
   </LayoutPageWrapper>
 </template>
